@@ -99,14 +99,14 @@ def parse_blog_page(html_text: str) -> list:
     return unique_posts
 
 
-# ✅ Resource: Greeting
+
 @mcp.resource("greeting://{name}")
 def get_greeting(name: str) -> str:
     """Get a personalized greeting."""
     return f"Hello, {name}!"
 
 
-# ✅ Prompt: Greet user in style
+
 @mcp.prompt()
 def greet_user(name: str, style: str = "friendly") -> str:
     """Generate a greeting prompt."""
