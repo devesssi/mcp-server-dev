@@ -1,7 +1,7 @@
 [project]
 name = "mcp-server-dev"
 version = "0.1.0"
-description = "Add your description here"
+description = "hf blog reader mcp"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
